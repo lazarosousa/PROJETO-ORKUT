@@ -10,10 +10,7 @@
     left: 0px;
     top: 0px;
 
-   /* White */
-
    background: #FDFEFF;
-   border: 1px solid #000000;
    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
 
  }
@@ -198,13 +195,13 @@ border-radius: 10px;
 
         /* Foto */
 
-        box-sizing: border-box;
-        position: absolute;
-        width: 172px;
-        height: 172px;
-        left: 75.5px;
-        top: 35.7px;
-        border-radius: 50%;
+   box-sizing: border-box;
+   position: absolute;
+   width: 172px;
+   height: 172px;
+   left: 75.5px;
+   top: 35.7px;
+   border-radius: 50%;
  }
 
  .nome-perfil {
@@ -272,6 +269,35 @@ border-radius: 10px;
     letter-spacing: 0.2px;
     color: #4B4B4B;
 
+ }
+
+ .adicionar-perfil {
+
+   position: absolute;
+   width: 70px;
+   height: 24px;
+   left: 130px;
+   top: 370px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+
+ }
+
+ .botao-add {
+   position: absolute;
+   left: 10%;
+   right: 4.17%;
+   top: 16.67%;
+   bottom: 16.67%;
  }
 
  .separador1 {
