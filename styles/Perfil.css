@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    background-color: #D9E6F7;
+}
+
+.barra-menu {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1919px;
+    height: 92px;
+    left: 0px;
+    top: 0px;
+
+   /* White */
+
+   background: #FDFEFF;
+   border: 1px solid #000000;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .lista-menu{
+    position: absolute;
+    width: 900px;
+    height: px;
+    left: 250px;
+    top: 32px;
+ }
+
+ .lista-menu li{
+
+    display: inline;
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    padding: 1%;
+        
+ }
+
+ .lista-menu a {
+
+        /* Text */
+
+    text-decoration: none;
+    color: #4B4B4B;
+
+ }
+
+ .botao-buscar {
+
+    /* bg */
+
+    position: absolute;
+    width: 355px;
+    height: 44px;
+    left: 800px;
+    top: 24px;
+    
+
+/* Input */
+
+background: #D9D9D9;
+border-radius: 10px;
+
+ }
+
+ .botao-buscar img {
+
+    position: absolute;
+    left: 5%;
+    right: 14.63%;
+    top: 30%;
+    bottom: 14.63%;
+    opacity: 0.5;
+
+ }
+
+ .text-pesquisar {
+
+    position: absolute;
+    left: 45%;
+    right: 23.94%;
+    top: 38%;
+    bottom: 94.54%;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+    opacity: 0.5;
+
+ }
+
+ .logo img {
+    position: absolute;
+    width: 132px;
+    height: 39px;
+    left: 80px;
+    top: 25px;
+
+ }
+
+ .login {
+    position: absolute;
+    width: 175px;
+    height: 42px;
+    left: 900px;
+    top: 25px;
+    
+ }
+
+ .caixa {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+ }
+
+ .seta {
+    position: absolute;
+    left: 300%;
+    right: 42%;
+    top: 25%;
+    bottom: 33.33%;
+ }
+
+ .usuario p {
+    /* Lazaro Sousa */
+
+    position: absolute;
+    width: 93px;
+    height: 24px;
+    left: 419px;
+    top: 9px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #4B4B4B;
+ }
+
+ .foto img {
+    /* Foto */
+
+    box-sizing: border-box;
+    position: absolute;
+    left: 350px;
+    top: -7px;
+    height: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+ }
+
+ .barra-esquerda {
+
+    position: absolute;
+    width: 320px;
+    height: 725px;
+    left: 80px;
+    top: 131px;    
+    background: #FDFEFF;
+    border-radius: 20px;
+ }
+
+ .borda-foto {
+
+    /* Borda */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 70px;
+    top: 30px;
+    border: 3px solid #ED2590;
+    border-radius: 50%;
+
+ }
+
+ .barra-esquerda img {
+
+        /* Foto */
+
+        box-sizing: border-box;
+        position: absolute;
+        width: 172px;
+        height: 172px;
+        left: 75.5px;
+        top: 35.7px;
+        border-radius: 50%;
+ }
+
+ .nome-perfil {
+    
+
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 117px;
+    top: 240px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+
+ }
+
+ .genero-perfil {
+
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 100px;
+    top: 270px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+
+ }
+
+ .pais-perfil {
+
+    position: absolute;
+    width: 400px;
+    height: 24px;
+    left: 145px;
+    top: 300px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+
+ }
+
+ .separador1 {
+
+    position: absolute;
+    width: 272px;
+    height: 0px;
+    left: 104px;
+    top: 475px;
+    border: 1px solid #D9E6F7;
+ }
+
+ .separador2 {
+
+    position: absolute;
+    width: 272px;
+    height: 0px;
+    left: 104px;
+    top: 595px;    
+    border: 1px solid #D9E6F7;
+ }
+
+ .feed {
+    position: absolute;
+    width: 664px;
+    height: 627px;
+    left: 424px;
+    top: 131px;
+    background: #FDFEFF;
+    border-radius: 20px;
+ }
+
+ .inicio-perfil {
+
+    position: absolute;
+    width: 91px;
+    height: 24px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+
+ }
+
+ .depoimentos {
+
+    position: absolute;
+    width: 664px;
+    height: 301px;
+    left: 424px;
+    top: 782px;
+    background: #FDFEFF;
+    border-radius: 20px;
+
+ }
+
+ .titulo-depoimentos {
+
+    position: absolute;
+    width: 132px;
+    height: 24px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+
+ }
+
+ .amigos {
+
+    position: absolute;
+    width: 320px;
+    height: 434px;
+    left: 1112px;
+    top: 131px;
+    background: #FDFEFF;
+    border-radius: 20px;
+ }
+
+ .titulo-amigos {
+
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+ }
+
+ .comunidades {
+
+    position: absolute;
+    width: 320px;
+    height: 434px;
+    left: 1112px;
+    top: 589px;
+    background: #FDFEFF;
+    border-radius: 20px;
+
+ }
+
+ .titulo-comuni {
+
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    left: 20px;
+    top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #4B4B4B;
+
+ }
