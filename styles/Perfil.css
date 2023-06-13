@@ -311,13 +311,65 @@ border-radius: 10px;
    color: #4B4B4B;
  }
 
- .botao-edit {
+ .galeria-perfil {
    position: absolute;
-   left: 10%;
-   right: 4.17%;
-   top: 16.67%;
-   bottom: 16.67%;
+   width: 90px;
+   height: 24px;
+   left: 130px;
+   top: 430px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
  }
+
+ .depoimentos-perfil {
+   position: absolute;
+   width: 90px;
+   height: 24px;
+   left: 130px;
+   top: 460px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+ }
+
+ .aplicativos-perfil {
+   position: absolute;
+   width: 90px;
+   height: 24px;
+   left: 130px;
+   top: 490px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+ }
+
+
+
 
  .separador1 {
 
@@ -373,21 +425,21 @@ border-radius: 10px;
     border-radius: 20px;
     box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
 
-
  }
+ 
 
  .titulo-depoimentos {
 
     position: absolute;
-    width: 132px;
+    width: 200px;
     height: 24px;
-    left: 20px;
-    top: 20px;
+    left: 450px;
+    top: 800px;
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
 
     display: flex;
@@ -396,6 +448,42 @@ border-radius: 10px;
     color: #4B4B4B;
 
  }
+
+ .novas-amizades {
+
+   position: absolute;
+   width: 664px;
+   height: 301px;
+   left: 424px;
+   top: 1110px;
+   background: #FDFEFF;
+   border-radius: 20px;
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+
+}
+
+.titulo-amizades {
+
+   position: absolute;
+   width: 300px;
+   height: 24px;
+   left: 450px;
+   top: 1130px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+
+}
+
+
 
  .amigos {
 
