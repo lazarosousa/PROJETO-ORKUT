@@ -271,7 +271,7 @@ border-radius: 10px;
 
  }
 
- .editar-perfil {
+ .meu-perfil {
 
    position: absolute;
    width: 90px;
@@ -292,6 +292,25 @@ border-radius: 10px;
 
  }
 
+ .recados-perfil {
+   position: absolute;
+   width: 90px;
+   height: 24px;
+   left: 130px;
+   top: 400px;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+ }
+
  .botao-edit {
    position: absolute;
    left: 10%;
@@ -310,16 +329,6 @@ border-radius: 10px;
     border: 1px solid #D9E6F7;
  }
 
- .separador2 {
-
-    position: absolute;
-    width: 272px;
-    height: 0px;
-    left: 104px;
-    top: 595px;    
-    border: 1px solid #D9E6F7;
- }
-
  .feed {
     position: absolute;
     width: 664px;
@@ -335,7 +344,7 @@ border-radius: 10px;
  .inicio-perfil {
 
     position: absolute;
-    width: 91px;
+    width: 150px;
     height: 24px;
     left: 20px;
     top: 20px;
@@ -343,7 +352,7 @@ border-radius: 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 25px;
     line-height: 24px;
 
     display: flex;
