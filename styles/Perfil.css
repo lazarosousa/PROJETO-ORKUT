@@ -271,10 +271,10 @@ border-radius: 10px;
 
  }
 
- .adicionar-perfil {
+ .editar-perfil {
 
    position: absolute;
-   width: 70px;
+   width: 90px;
    height: 24px;
    left: 130px;
    top: 370px;
@@ -292,7 +292,7 @@ border-radius: 10px;
 
  }
 
- .botao-add {
+ .botao-edit {
    position: absolute;
    left: 10%;
    right: 4.17%;
