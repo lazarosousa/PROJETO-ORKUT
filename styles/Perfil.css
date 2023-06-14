@@ -103,6 +103,61 @@
    color: #ED2590;
  }
 
+ .bibi-person {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -31%;
+  top: 1079%;
+  color: #ED2590;
+
+ }
+
+ .bibi-envelope {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -31%;
+  top: 1179%;
+  color: #ED2590;
+
+ }
+
+ .bibi-images {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -31%;
+  top: 1276%;
+  color: #ED2590;
+
+ }
+
+ .bibi-chat-square-text {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -31%;
+  top: 1375%;
+  color: #ED2590;
+
+ }
+
+ .bibi-controller {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: -31%;
+  top: 1464%;
+  color: #ED2590;
+
+ }
+
  .separador1 {
 
     position: absolute;
