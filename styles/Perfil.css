@@ -17,7 +17,7 @@
  .barra-esquerda {
 
     position: absolute;
-    width: 40%;
+    width: 17%;
     height: 67%;
     left: 80px;
     top: 14.8%;    
@@ -106,8 +106,8 @@
  .separador1 {
 
     position: absolute;
-    width: 34%;
-    left: 13%;
+    width: 15.2%;
+    left: 5%;
     top: 53%;
     border: 1px solid #D9E6F7;
  }
@@ -115,9 +115,9 @@
  .feed {
    
     position: absolute;
-    width: 84%;
+    width: 50%;
     height: 70%;
-    left: 54%;
+    left: 23%;
     top: 14.9%;
     background: #FDFEFF;
     border-radius: 20px;
@@ -149,9 +149,9 @@
  .depoimentos {
 
    position: absolute;
-   width: 84%;
-   height: 34%;
-   left: 54%;
+   width: 50%;
+   height: 70%;
+   left: 23%;
    top: 87%;
    background: #FDFEFF;
    border-radius: 20px;
@@ -163,13 +163,13 @@
  .titulo-depoimentos {
 
    position: absolute;
-   left: 57%;
-   top: 88%;
+   left: 25%;
+   top: 89%;
 
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
-   font-size: 17px;
+   font-size: 20px;
    line-height: 24px;
 
    display: flex;
@@ -182,10 +182,10 @@
  .novas-amizades {
 
    position: absolute;
-   width: 84%;
-   height: 34%;
-   left: 54%;
-   top: 123%;
+   width: 50%;
+   height: 70%;
+   left: 23%;
+   top: 159%;
    background: #FDFEFF;
    border-radius: 20px;
    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73);
@@ -195,13 +195,13 @@
 .titulo-amizades {
 
    position: absolute;
-   left: 57%;
-   top: 125%;
+   left: 25%;
+   top: 161%;
 
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
-   font-size: 17px;
+   font-size: 20px;
    line-height: 24px;
 
    display: flex;
@@ -216,9 +216,9 @@
  .amigos {
 
     position: absolute;
-    width: 40%;
-    height: 48%;
-    left: 141%;
+    width: 23%;
+    height: 69.7%;
+    left: 74.7%;
     top: 15.2%;
     background: #FDFEFF;
     border-radius: 20px;
@@ -226,7 +226,7 @@
 
  }
 
- .titulo-amigos {
+ .titulo-amigos a {
 
    position: absolute;
    left: 7%;
@@ -235,23 +235,29 @@
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
-   font-size: 17px;
+   font-size: 20px;
    line-height: 24px;
 
    display: flex;
    align-items: center;
    letter-spacing: 0.2px;
    color: #4B4B4B;
+   text-decoration: none;
+   
 
  }
+
+ .titulo-amigos a:hover {
+  color: #ED2590;
+}
 
  .comunidades {
 
    position: absolute;
-   width: 40%;
-   height: 48%;
-   left: 141%;
-   top: 65%;
+   width: 23%;
+   height: 69.7%;
+   left: 74.7%;
+   top: 87%;
    background: #FDFEFF;
    border-radius: 20px;
    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
@@ -259,7 +265,7 @@
 
  }
 
- .titulo-comuni {
+ .titulo-comuni a{
 
    position: absolute;
    left: 7%;
@@ -268,12 +274,18 @@
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 700;
-   font-size: 17px;
+   font-size: 20px;
    line-height: 24px;
 
    display: flex;
    align-items: center;
    letter-spacing: 0.2px;
    color: #4B4B4B;
+   text-decoration: none;
+
 
  }
+
+ .titulo-comuni a:hover {
+  color: #ED2590;
+}
