@@ -40,30 +40,26 @@
     background-color: #ffffff;
   }
 
-  .lista-menu{
-    position: fixed;
-    width: 60%;
-    left: 15%;
-    top: 1%;
- }
+  .itens-menu {
 
- .lista-menu li{
-
-    display: inline;
-    list-style: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    padding: 1%;
+   position: absolute;
+   z-index: 1;
+   top: 58%;
+   left: 25%;
 
  }
 
- .lista-menu a {
+ .itens-menu a {
+   
+   padding: 1% 0%;
+   text-decoration: none;
+   font-size: 18px;
+   color: #4B4B4B;
 
-    text-decoration: none;
-    color: #4B4B4B;
-
+ }
+ 
+ .itens-menu a:hover {
+   color: #ED2590;
  }
 
  .botao-buscar {
