@@ -113,11 +113,12 @@
  }
 
  .feed {
+   
     position: absolute;
-    width: 664px;
-    height: 627px;
-    left: 424px;
-    top: 131px;
+    width: 84%;
+    height: 70%;
+    left: 54%;
+    top: 14.9%;
     background: #FDFEFF;
     border-radius: 20px;
     box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
@@ -126,80 +127,76 @@
 
  .inicio-perfil {
 
-    position: absolute;
-    width: 150px;
-    height: 24px;
-    left: 20px;
-    top: 20px;
+   /* texto */
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 24px;
+   position: absolute;
+   left: 3%;
+   top: 3%;
 
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #4B4B4B;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
 
  }
 
  .depoimentos {
 
-    position: absolute;
-    width: 664px;
-    height: 301px;
-    left: 424px;
-    top: 782px;
-    background: #FDFEFF;
-    border-radius: 20px;
-    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+   position: absolute;
+   width: 84%;
+   height: 34%;
+   left: 54%;
+   top: 87%;
+   background: #FDFEFF;
+   border-radius: 20px;
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
 
  }
  
 
  .titulo-depoimentos {
 
-    position: absolute;
-    width: 200px;
-    height: 24px;
-    left: 450px;
-    top: 800px;
+   position: absolute;
+   left: 57%;
+   top: 88%;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 24px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 24px;
 
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-    color: #4B4B4B;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
 
  }
 
  .novas-amizades {
 
    position: absolute;
-   width: 664px;
-   height: 301px;
-   left: 424px;
-   top: 1110px;
+   width: 84%;
+   height: 34%;
+   left: 54%;
+   top: 123%;
    background: #FDFEFF;
    border-radius: 20px;
-   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73);
 
 }
 
 .titulo-amizades {
 
    position: absolute;
-   width: 300px;
-   height: 24px;
-   left: 450px;
-   top: 1130px;
+   left: 57%;
+   top: 125%;
 
    font-family: 'Roboto';
    font-style: normal;
@@ -219,10 +216,10 @@
  .amigos {
 
     position: absolute;
-    width: 320px;
-    height: 434px;
-    left: 1112px;
-    top: 131px;
+    width: 40%;
+    height: 48%;
+    left: 141%;
+    top: 15.2%;
     background: #FDFEFF;
     border-radius: 20px;
     box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
@@ -231,57 +228,52 @@
 
  .titulo-amigos {
 
-    position: absolute;
-    width: 100px;
-    height: 24px;
-    left: 20px;
-    top: 20px;
+   position: absolute;
+   left: 7%;
+   top: 4%;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 24px;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #4B4B4B;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+
  }
 
  .comunidades {
 
-    position: absolute;
-    width: 320px;
-    height: 434px;
-    left: 1112px;
-    top: 589px;
-    background: #FDFEFF;
-    border-radius: 20px;
-    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+   position: absolute;
+   width: 40%;
+   height: 48%;
+   left: 141%;
+   top: 65%;
+   background: #FDFEFF;
+   border-radius: 20px;
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
 
 
  }
 
  .titulo-comuni {
 
-    position: absolute;
-    width: 136px;
-    height: 24px;
-    left: 20px;
-    top: 20px;
+   position: absolute;
+   left: 7%;
+   top: 4%;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 24px;
 
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.2px;
-    color: #4B4B4B;
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
 
  }
