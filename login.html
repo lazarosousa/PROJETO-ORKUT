@@ -1,67 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orkut</title>
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/login.css">
-    <link rel="shortcut icon" href="images/faviconkut.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/f6c32a0159.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/login.css">
+    <link rel="stylesheet" href="../style/global.css">
+    <link rel="stylesheet" href="../style/reset.css">
+
+    <link rel="shortcut icon" href="../images/faviconkut.png" type="image/x-icon">
 </head>
+
 <body>
-    <!--<div id="superior">
-        <nav id="menu-1">
-            <ul class="teste">
-                <li></li>
-            </ul>   
-    
-            <h1 id="superior-direito"> orkut </h1>
-        </nav>
-            <p id="diagonal-cima"></p>
-            <p id="square-cima"></p>
-    </div>-->
+    <header id="cabecalho">
+
+    </header>
     <main id="field__main">
-        <h1><span style="color: #E8258E">orkut</span></h1>
-        <img src="images/social.jpg" alt="imagem png de pessoas em conexao" width="40%" height="30%">
-        <p><span style="font-weight: bolder; color: #E8258E" >Conecte-se</span> aos seus amigos e familiares usando recados e mensagens instantâneas</p>
-        <p><span style="font-weight: bolder; color: #E8258E">Conheça</span> novas pessas através de amigos de seus amigos e comunidades</p>
-        <p><span style="font-weight: bolder; color: #E8258E">Compartilhe</span> seus vídeos, fotos e paixões em um só lugar</p>
+        <section id="main-images">
+            <img src="../images/OrkutLogo.png" alt="logo do orkut" id="logoMain"> <br>
+            <img src="../images/social.jpg" alt="imagem png de pessoas em conexao" id="social">
+        </section>
+        <section id="main-texts">
+            <p><span class="orkut-font-color" id="color-text-main-1">Conecte-se</span> aos seus amigos e familiares
+                usando recados e mensagens instantâneas</p>
+            <p><span class="orkut-font-color" id="color-text-main-2">Conheça</span> novas pessoas através de amigos de
+                seus amigos e comunidades</p>
+            <p><span class="orkut-font-color" id="color-text-main-3">Compartilhe</span> seus vídeos, fotos e paixões em
+                um só lugar</p>
+        </section>
     </main>
-    <div class="container">
-    <div class="fields">
-        <div class="field__title">
-            <p>Acesse o 
-                <span class="pink-font">Orkut</span> 
-                com a sua conta 
-                <span style="color: rgb(50, 76, 224)">G</span><span style="color: rgb(247, 0, 255)">o</span><span style="color: rgb(255, 170, 0);">o</span><span style="color: rgb(50, 76, 224);">g</span><span style="color: rgb(89, 89, 96);">l</span><span style="color: rgb(255, 0, 30);">e</span>!</p>
-            
-        </div>
-        <div class="fields__textbox">
-            <input type="email" placeholder="E-mail ou Número de Celular" name="" id="field__email">
-            <input type="password" placeholder="Senha" name="" id="fields__pass">
-        </div>
-        <div class="fields__remember">
-            <input type="checkbox" name="" id="fields__remember">
-            <label for="fields__remember">Lembrar sempre do meu acesso</label>
-        </div>
-        <div class="fields__buttons">
-            <button id="btnlogin">Entrar</button>
-        </div>
-        <div class="fields__recovery">
-            <a href="">Não consegue acessar a sua conta?</a>
-        </div>
-        <div class="fields__create">
-            <p>Não tem conta ?<a href=""> <span class="pink-font">Criar Agora</span></a></p>
-        </div>
+    <aside class="container">
+
+        <div class="fields">
+            <div class="field__title">
+                <p>Acesse o
+                    <span class="orkut-font-color">Orkut</span>
+                    com a sua conta
+                    <a href="www.account.google.com" style="text-decoration: none;"><span
+                            style="color: rgb(50, 76, 224)">G</span><span style="color: rgb(247, 0, 255)">o</span><span
+                            style="color: rgb(255, 170, 0);">o</span><span
+                            style="color: rgb(50, 76, 224);">g</span><span style="color: rgb(89, 89, 96);">l</span><span
+                            style="color: rgb(255, 0, 30);">e</span>!
+                </p></a>
+
+            </div>
+            <div class="fields__textbox">
+                <input type="email" placeholder="E-mail ou Número de Celular" name="" id="field__email">
+                <input type="password" placeholder="Senha" name="" id="fields__pass">
+            </div>
+            <div class="fields__remember">
+                <input type="checkbox" name="" id="fields__remember">
+                <label for="fields__remember">Lembrar sempre do meu acesso</label>
+            </div>
+            <div class="fields__buttons">
+                <button id="btnlogin" class="orkut-button-bg">Entrar</button>
+            </div>
+            <div class="fields__recovery">
+                <a href="">Não consegue acessar a sua conta?</a>
+            </div>
+            <div class="fields__create">
+                <p>Não tem conta ?<a href=""> <span class="orkut-font-color">Criar Agora</span></a></p>
+            </div>
 
 
-    </div>
+        </div>
 
-    </div>
+    </aside>
     <footer>
-        <p>&copy;2017 <a href="">Orkut</a> - <a href="">Sobre o Orkut</a> - <a href="">Centro de Segurança</a> - <a href="">Privacidade</a> - <a href="">Termos</a> - <a href="">Contato</a></p></a>
+        <p>&copy;2017 <a href="">Orkut</a> - <a href="">Sobre o Orkut</a> - <a href="">Centro de Segurança</a> - <a
+                href="">Privacidade</a> - <a href="">Termos</a> - <a href="">Contato</a></p></a>
     </footer>
 </body>
+
 </html>
