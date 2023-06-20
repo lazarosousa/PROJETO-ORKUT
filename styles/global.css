@@ -22,6 +22,18 @@
     
 }
 
+.orkut-link {
+   text-decoration: none;
+   color: rgb(89, 123, 192);
+   font-weight: 500;
+}
+
+/*#cabecalho {
+    background-color: rgba(38, 116, 233, 0.452);
+    width: 100%;
+    height: 5vh;
+}*/
+
 .logo img {
 
     position: fixed;
