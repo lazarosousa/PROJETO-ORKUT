@@ -36,14 +36,15 @@
 
 .logo {
 
-    position: absolute;
-    width: %;
-    height: 97%;
-    left: 4.4%;
-    top: 2%;
-    background-color: #fff
+   position: fixed;
+   height: 41px; 
+   width: 132px;
+   left: 4.4%;
+   top: 0.1%;
+   background-color: #fff;
+   padding: 0%;
 
-  }
+}
 
   .itens-menu {
 
