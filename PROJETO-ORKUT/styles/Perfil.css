@@ -1,0 +1,346 @@
+:root{
+    background-color: #D9E6F7;
+}
+
+/* .barra-menu {
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    left: 0px;
+    top: 0px;
+
+   background: #FDFEFF;
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+
+ } */
+
+ .barra-esquerda {
+
+    position: absolute;
+    width: 17%;
+    height: 67%;
+    left: 80px;
+    top: 14.8%;    
+    background: #FDFEFF;
+    border-radius: 20px;
+    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+
+ }
+
+ .borda-foto {
+
+    /* Borda */
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 184px;
+    height: 184px;
+    left: 21.7%;
+    top: 4.6%;
+    border: 3px solid #ED2590;
+    border-radius: 50%;
+
+ }
+
+ .barra-esquerda img {
+
+        /* Foto */
+
+   box-sizing: border-box;
+   position: absolute;
+   width: 172px;
+   height: 172px;
+   left: 23.7%;
+   top: 5.6%;
+   border-radius: 50%;
+ }
+
+ .infos{
+
+   position: absolute;
+   z-index: 1;
+   top: 37.5%;
+   left: 26%;
+   overflow-x: hidden;
+   padding: 8px 0;
+   list-style: none;
+   
+ }
+
+ .infos li {
+
+   padding: 2% 0%;
+   text-decoration: none;
+   font-size: 18px;
+   color: #4B4B4B;
+   display: block;
+   text-align: center;
+
+ }
+
+ .sidenav {
+
+   position: absolute;
+   z-index: 1;
+   top: 58%;
+   left: 39%;
+   overflow-x: hidden;
+   padding: 8px 0;
+
+ }
+
+ .sidenav a {
+   
+   padding: 10% 0%;
+   text-decoration: none;
+   font-size: 18px;
+   color: #4B4B4B;
+   display: block;
+   
+ }
+ 
+ .sidenav a:hover {
+   color: #ED2590;
+ }
+
+ .bibi-person {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 8%;
+  top: 55%;
+  color: #ED2590;
+
+ }
+
+ .bibi-envelope {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 8%;
+  top: 60.2%;
+  color: #ED2590;
+
+ }
+
+ .bibi-images {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 8%;
+  top: 65%;
+  color: #ED2590;
+
+ }
+
+ .bibi-chat-square-text {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 8%;
+  top: 70.2%;
+  color: #ED2590;
+
+ }
+
+ .bibi-controller {
+
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 8%;
+  top: 74.7%;
+  color: #ED2590;
+
+ }
+
+ .separador1 {
+
+    position: absolute;
+    width: 15.2%;
+    left: 5%;
+    top: 53%;
+    border: 1px solid #D9E6F7;
+ }
+
+ .feed {
+   
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    left: 23%;
+    top: 14.9%;
+    background: #FDFEFF;
+    border-radius: 20px;
+    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+
+ }
+
+ .inicio-perfil {
+
+   /* texto */
+
+   position: absolute;
+   left: 3%;
+   top: 3%;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+
+ }
+
+ .depoimentos {
+
+   position: absolute;
+   width: 50%;
+   height: 70%;
+   left: 23%;
+   top: 87%;
+   background: #FDFEFF;
+   border-radius: 20px;
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+
+ }
+ 
+
+ .titulo-depoimentos {
+
+   position: absolute;
+   left: 25%;
+   top: 89%;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+
+ }
+
+ .novas-amizades {
+
+   position: absolute;
+   width: 50%;
+   height: 70%;
+   left: 23%;
+   top: 159%;
+   background: #FDFEFF;
+   border-radius: 20px;
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73);
+
+}
+
+.titulo-amizades {
+
+   position: absolute;
+   left: 25%;
+   top: 161%;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+
+}
+
+
+
+ .amigos {
+
+    position: absolute;
+    width: 23%;
+    height: 69.7%;
+    left: 74.7%;
+    top: 15.2%;
+    background: #FDFEFF;
+    border-radius: 20px;
+    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+
+ }
+
+ .titulo-amigos a {
+
+   position: absolute;
+   left: 7%;
+   top: 4%;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+   text-decoration: none;
+   
+
+ }
+
+ .titulo-amigos a:hover {
+  color: #ED2590;
+}
+
+ .comunidades {
+
+   position: absolute;
+   width: 23%;
+   height: 69.7%;
+   left: 74.7%;
+   top: 87%;
+   background: #FDFEFF;
+   border-radius: 20px;
+   box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73); 
+
+
+ }
+
+ .titulo-comuni a{
+
+   position: absolute;
+   left: 7%;
+   top: 4%;
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+
+   display: flex;
+   align-items: center;
+   letter-spacing: 0.2px;
+   color: #4B4B4B;
+   text-decoration: none;
+
+
+ }
+
+ .titulo-comuni a:hover {
+  color: #ED2590;
+}

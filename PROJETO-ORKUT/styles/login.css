@@ -1,0 +1,127 @@
+#logoOrkut {
+    width: 100%;
+    height: 30%;
+    margin-top: -30%;
+    margin-bottom: 5%;
+}
+
+#field__main {
+    width: 69%;
+    height: 90vh;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73);
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#logoMain {
+    width: 75%;
+    height: 20vh;
+    margin-bottom: 5%;
+}
+
+#social {
+    width: 50%;
+    height: 30vh;
+    margin-bottom: 2%;
+}
+
+#field__main p {
+
+    width: 100%;
+    height: 5vh;
+}
+
+#color-text-main-1 {
+    font-weight: bolder;
+}
+
+#color-text-main-2 {
+    font-weight: bolder;
+}
+
+#color-text-main-3 {
+    font-weight: bolder;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 27%;
+    height: 90vh;
+    display: inline-flex;
+    float: right;
+    border-radius: 20px;
+    align-self: center;
+    text-align: center;
+    box-shadow: 11px 8px 14px 1px rgba(49, 48, 48, 0.73);
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.fields {
+    margin: 30% 10%;
+}
+
+.field__title {
+    color: rgb(26, 26, 26);
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20%;
+    margin-top: -15%;
+}
+
+.fields__textbox {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fields__textbox>input {
+    height: 40px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    margin-bottom: 5%;
+}
+
+.fields__remember {
+    margin-bottom: 30px;
+}
+
+#btnlogin {
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.fields__create>a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.fields__recovery {
+    font-size: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50%;
+}
+
+.fields__create {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+}
